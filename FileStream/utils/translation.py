@@ -5,38 +5,34 @@ class LANG(object):
 
     START_TEXT = """
 <b>👋 Hᴇʏ, </b>{}\n 
-<b>I'ᴍ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇs sᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴀs ᴡᴇʟʟ ᴅɪʀᴇᴄᴛ ʟɪɴᴋs ɢᴇɴᴇʀᴀᴛᴏʀ</b>\n
-<b>ᴡᴏʀᴋɪɴɢ ᴏɴ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ</b>\n
+<b>I'ᴍ Tᴇʟᴇɢʀᴀᴍ Fɪʟᴇs Sᴛʀᴇᴀᴍɪɴɢ Bᴏᴛ As Wᴇʟʟ Dɪʀᴇᴄᴛ Lɪɴᴋs Gᴇɴᴇʀᴀᴛᴏʀ</b>\n
+<b>Wᴏʀᴋɪɴɢ Oɴ Cʜᴀɴɴᴇʟs</b>\n
 <b>💕 @{}</b>\n"""
 
     HELP_TEXT = """
-<b>- ᴀᴅᴅ ᴍᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ᴏɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ</b>
-<b>- sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴅᴏᴄᴜᴍᴇɴᴛ ᴏʀ ᴍᴇᴅɪᴀ</b>
-<b>- ɪ'ʟʟ ᴘʀᴏᴠɪᴅᴇ sᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋ</b>\n
-<b>🔞 ᴀᴅᴜʟᴛ ᴄᴏɴᴛᴇɴᴛ sᴛʀɪᴄᴛʟʏ ᴘʀᴏʜɪʙɪᴛᴇᴅ.</b>\n
-<i><b> ʀᴇᴘᴏʀᴛ ʙᴜɢs ᴛᴏ <a href='https://telegram.me/AvishkarPatil'>ᴅᴇᴠᴇʟᴏᴘᴇʀ</a></b></i>"""
+<b>- Aᴅᴅ Mᴇ As Aɴ Aᴅᴍɪɴ Oɴ Tʜᴇ Cʜᴀɴɴᴇʟ</b>
+<b>- Sᴇɴᴅ Mᴇ Aɴʏ Dᴏᴄᴜᴍᴇɴᴛ Oʀ Mᴇᴅɪᴀ</b>
+<b>- I'ʟʟ Pʀᴏᴠɪᴅᴇ Sᴛʀᴇᴀᴍᴀʙʟᴇ Lɪɴᴋ</b>\n
+<b>🔞 Aᴅᴜʟᴛ Cᴏɴᴛᴇɴᴛ Sᴛʀɪᴄᴛʟʏ Pʀᴏʜɪʙɪᴛᴇᴅ.</b>\n
+<i><b> Rᴇᴘᴏʀᴛ Bᴜɢs Tᴏ <a href='https://telegram.me/Sujan_Bots'>Dᴇᴠᴇʟᴏᴘᴇʀ</a></b></i>"""
 
     ABOUT_TEXT = """
-<b>⚜ ᴍʏ ɴᴀᴍᴇ : {}</b>\n
-<b>✦ ᴠᴇʀsɪᴏɴ : {}</b>
-<b>✦ ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ : 06-January-2024</b>
-<b>✦ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/AvishkarPatil'>Avishkar Patil</a></b>\n
+<b>⚜ Mʏ Nᴀᴍᴇ : {}</b>\n
+<b>✦ Vᴇʀsɪᴏɴ : {}</b>
+<b>✦ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/Sujan_BotZ'>Sujan BotZ</a></b>\n
 """
 
     STREAM_TEXT = """
 <i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>\n
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <b>{}</b>\n
 <b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <code>{}</code>\n
-<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <code>{}</code>\n
-<b>🖥 Wᴀᴛᴄʜ :</b> <code>{}</code>\n
-<b>🔗 Sʜᴀʀᴇ :</b> <code>{}</code>\n"""
+"""
 
     STREAM_TEXT_X = """
 <i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>\n
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <b>{}</b>\n
 <b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <code>{}</code>\n
-<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <code>{}</code>\n
-<b>🔗 Sʜᴀʀᴇ :</b> <code>{}</code>\n"""
+"""
 
 
     BAN_TEXT = "__Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ.__\n\n**[Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ](tg://user?id={}) Tʜᴇʏ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**"
@@ -45,27 +41,27 @@ class LANG(object):
 class BUTTON(object):
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
-            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
+            InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
         ],
-            [InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url=f'https://t.me/{Telegram.UPDATES_CHANNEL}')]
+            [InlineKeyboardButton("📢 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url=f'https://t.me/{Telegram.UPDATES_CHANNEL}')]
         ]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='home'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
-            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close'),
+            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close'),
         ],
-            [InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url=f'https://t.me/{Telegram.UPDATES_CHANNEL}')]
+            [InlineKeyboardButton("📢 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url=f'https://t.me/{Telegram.UPDATES_CHANNEL}')]
         ]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='home'),
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close'),
+            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
+            InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close'),
         ],
             [InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url=f'https://t.me/{Telegram.UPDATES_CHANNEL}')]
         ]
