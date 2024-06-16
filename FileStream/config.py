@@ -11,9 +11,9 @@ class Telegram:
     WORKERS = int(env.get("WORKERS", "6"))  # 6 workers = 6 commands at once
     DATABASE_URL = str(env.get('DATABASE_URL', 'mongodb+srv://fayomeb959:fayomeb959@cluster0.wpn7g4s.mongodb.net/?retryWrites=true&w=majority'))
     UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', "Sujan_BotZ"))
-    SESSION_NAME = str(env.get('SESSION_NAME', 'FileStream'))
-    FORCE_SUB_ID = env.get('FORCE_SUB_ID', -1001861445521)
-    FORCE_SUB = env.get('FORCE_UPDATES_CHANNEL', True)
+    SESSION_NAME = str(env.get('SESSION_NAME', 'Sujan_BotZ'))
+    FORCE_SUB_ID = env.get('FORCE_SUB_ID', '-1001861445521')
+    FORCE_SUB = env.get('FORCE_UPDATES_CHANNEL', 'True')
     FORCE_SUB = True if str(FORCE_SUB).lower() == "true" else False
     SLEEP_THRESHOLD = int(env.get("SLEEP_THRESHOLD", "60"))
     FILE_PIC = env.get('FILE_PIC', "https://graph.org/file/260a77b161fb1ce4eaace.jpg")
