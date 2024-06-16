@@ -93,18 +93,18 @@ async def gen_link(_id):
         stream_text = LANG.STREAM_TEXT.format(file_name, file_size, stream_link, page_link, file_link)
         reply_markup = InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("sᴛʀᴇᴀᴍ", url=page_link), InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=stream_link)],
-                [InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ", url=file_link), InlineKeyboardButton("ʀᴇᴠᴏᴋᴇ ғɪʟᴇ", callback_data=f"msgdelpvt_{_id}")],
-                [InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close")]
+                [InlineKeyboardButton("Sᴛʀᴇᴀᴍ", url=page_link), InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ", url=stream_link)],
+                [InlineKeyboardButton("Gᴇᴛ Fɪʟᴇ", url=file_link), InlineKeyboardButton("Rᴇᴠᴏᴋᴇ Fɪʟᴇ", callback_data=f"msgdelpvt_{_id}")],
+                [InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")]
             ]
         )
     else:
         stream_text = LANG.STREAM_TEXT_X.format(file_name, file_size, stream_link, file_link)
         reply_markup = InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=stream_link)],
-                [InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ", url=file_link), InlineKeyboardButton("ʀᴇᴠᴏᴋᴇ ғɪʟᴇ", callback_data=f"msgdelpvt_{_id}")],
-                [InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close")]
+                [InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ", url=stream_link)],
+                [InlineKeyboardButton("Gᴇᴛ Fɪʟᴇ", url=file_link), InlineKeyboardButton("Rᴇᴠᴏᴋᴇ Fɪʟᴇ", callback_data=f"msgdelpvt_{_id}")],
+                [InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")]
             ]
         )
     return reply_markup, stream_text
@@ -125,14 +125,14 @@ async def gen_linkx(m:Message , _id, name: list):
         stream_text= LANG.STREAM_TEXT_X.format(file_name, file_size, stream_link, page_link)
         reply_markup = InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("sᴛʀᴇᴀᴍ", url=page_link), InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=stream_link)]
+                [InlineKeyboardButton("Sᴛʀᴇᴀᴍ", url=page_link), InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ", url=stream_link)]
             ]
         )
     else:
         stream_text= LANG.STREAM_TEXT_X.format(file_name, file_size, stream_link, file_link)
         reply_markup = InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=stream_link)]
+                [InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ", url=stream_link)]
             ]
         )
     return reply_markup, stream_text
@@ -157,7 +157,7 @@ async def is_channel_banned(bot, message):
             chat_id=message.chat.id,
             message_id=message.id,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton(f"ᴄʜᴀɴɴᴇʟ ɪs ʙᴀɴɴᴇᴅ", callback_data="N/A")]])
+                InlineKeyboardButton(f"Cʜᴀɴɴᴇʟ Is Bᴀɴɴᴇᴅ", callback_data="N/A")]])
         )
         return True
     return False
